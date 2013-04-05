@@ -1,0 +1,14 @@
+@import "../reindeer/reindeer.scss";
+
+@mixin example {
+  @include reindeer;
+
+  $background-color: red;
+  $foreground-color: white;
+
+  .mycomponent {
+    color: $foreground-color;
+    background: $background-color;
+    font-weight: bold;
+  }
+}

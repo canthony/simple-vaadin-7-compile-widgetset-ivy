@@ -1,0 +1,11 @@
+@import "example.scss";
+
+/*
+  Using the recommended theme structure, as in the mini tutorial
+  https://vaadin.com/wiki/-/wiki/Main/Creating%20a%20theme%20using%20sass
+*/
+
+.example {
+  /* Use mixin example, as defined in example.scss */
+  @include example;
+}
