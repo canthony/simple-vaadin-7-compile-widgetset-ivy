@@ -63,7 +63,7 @@ The following should illustrate cloneing the repository, and building the WAR
 	BUILD SUCCESSFUL
 	Total time: 1 minute 47 seconds
 
-Hard to illustrate, but you can simply deploy the war; here, I'm using (Winstone)[https://code.google.com/p/winstone/]
+Hard to illustrate, but you can simply deploy the war; here, I'm using [Winstone](https://code.google.com/p/winstone/)
 
     D:\Temp\simple-vaadin-7-compile-widgetset-ivy>java -jar c:\Users\Charles\Downloads\winstone-1.0.5-boot.jar build\sample-application.war
     Fri, 5 Apr 2013 13:14:30 540 GMT, BootStrap Info: Home Directory=C:\Users\Charles\Downloads
