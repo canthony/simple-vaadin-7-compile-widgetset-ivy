@@ -1,7 +1,7 @@
 Assuming you have Ant & Ivy installed & configured, a simple "ant" in the route directory
 should build a deployable WAR (including a compiled theme, and a compiled widgetset) in build\sample-application.war
 
-The following should illustrate cloneing the repository, and
+The following should illustrate cloneing the repository, and building the WAR
 
 	D:\Temp>git clone https://github.com/canthony/simple-vaadin-7-compile-widgetset-ivy.git
 	Cloning into 'simple-vaadin-7-compile-widgetset-ivy'...
@@ -65,26 +65,26 @@ The following should illustrate cloneing the repository, and
 
 Hard to illustrate, but you can simply deploy the war; here, I'm using (Winstone)[https://code.google.com/p/winstone/]
 
-  D:\Temp\simple-vaadin-7-compile-widgetset-ivy>java -jar c:\Users\Charles\Downloads\winstone-1.0.5-boot.jar build\sample-application.war
-  Fri, 5 Apr 2013 13:14:30 540 GMT, BootStrap Info: Home Directory=C:\Users\Charles\Downloads
-  Fri, 5 Apr 2013 13:14:30 557 GMT, BootStrap Info: Main-Class=net.winstone.Winstone
-  INFO  05/04/13 14:14:30.703 [main]: stage 1/3: Loading arguments...
-  INFO  05/04/13 14:14:30.704 [main]: stage 2/3: check embedded file...
-  INFO  05/04/13 14:14:30.705 [main]: no embedded file was found
-  INFO  05/04/13 14:14:30.706 [main]: stage 3/3: compute JSP classpath...
-  INFO  05/04/13 14:14:30.735 [main]: Beginning extraction from war file
-  INFO  05/04/13 14:14:31.048 [main]: Found and enabled the local Servlet 2.5 XSD replacement
-  INFO  05/04/13 14:14:31.207 [main]: Deploy web application: prefix [] webroot [D:\Temp\Charles\winstone\Charles\default\
-  sample-application.war]
-  INFO  05/04/13 14:14:31.249 [main]: HTTP Listener started: port=8080
-  INFO  05/04/13 14:14:31.288 [main]: AJP13 Listener started: port=8009
-  INFO  05/04/13 14:14:31.291 [LauncherControlThread[ControlPort=-1]]]: Winstone Servlet Engine v1.0.3 running: controlPor
-  t=disabled
-  Fri, 5 Apr 2013 13:14:31 291 GMT, BootStrap Info: Exit
-  Apr 05, 2013 2:14:38 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
-  WARNING:
-  =================================================================
-  Vaadin is running in DEBUG MODE.
-  Add productionMode=true to web.xml to disable debug features.
-  To show debug window, add ?debug to your application URL.
-  =================================================================
+    D:\Temp\simple-vaadin-7-compile-widgetset-ivy>java -jar c:\Users\Charles\Downloads\winstone-1.0.5-boot.jar build\sample-application.war
+    Fri, 5 Apr 2013 13:14:30 540 GMT, BootStrap Info: Home Directory=C:\Users\Charles\Downloads
+    Fri, 5 Apr 2013 13:14:30 557 GMT, BootStrap Info: Main-Class=net.winstone.Winstone
+    INFO  05/04/13 14:14:30.703 [main]: stage 1/3: Loading arguments...
+    INFO  05/04/13 14:14:30.704 [main]: stage 2/3: check embedded file...
+    INFO  05/04/13 14:14:30.705 [main]: no embedded file was found
+    INFO  05/04/13 14:14:30.706 [main]: stage 3/3: compute JSP classpath...
+    INFO  05/04/13 14:14:30.735 [main]: Beginning extraction from war file
+    INFO  05/04/13 14:14:31.048 [main]: Found and enabled the local Servlet 2.5 XSD replacement
+    INFO  05/04/13 14:14:31.207 [main]: Deploy web application: prefix [] webroot [D:\Temp\Charles\winstone\Charles\default\
+    sample-application.war]
+    INFO  05/04/13 14:14:31.249 [main]: HTTP Listener started: port=8080
+    INFO  05/04/13 14:14:31.288 [main]: AJP13 Listener started: port=8009
+    INFO  05/04/13 14:14:31.291 [LauncherControlThread[ControlPort=-1]]]: Winstone Servlet Engine v1.0.3 running: controlPor
+    t=disabled
+    Fri, 5 Apr 2013 13:14:31 291 GMT, BootStrap Info: Exit
+    Apr 05, 2013 2:14:38 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+    WARNING:
+    =================================================================
+    Vaadin is running in DEBUG MODE.
+    Add productionMode=true to web.xml to disable debug features.
+    To show debug window, add ?debug to your application URL.
+    =================================================================
