@@ -1,7 +1,7 @@
 Assuming you have Ant & Ivy installed & configured, a simple "ant" in the route directory
 should build a deployable WAR (including a compiled theme, and a compiled widgetset) in build\sample-application.war
 
-The following should illustrate cloneing the repository, and building the WAR
+The following should illustrate cloning the repository, and building the WAR
 
 	D:\Temp>git clone https://github.com/canthony/simple-vaadin-7-compile-widgetset-ivy.git
 	Cloning into 'simple-vaadin-7-compile-widgetset-ivy'...
